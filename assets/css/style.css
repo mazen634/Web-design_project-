@@ -1,3 +1,16 @@
+/*
+    color palette
+    #4f46e5
+    #4338ca
+    #6c63ff
+    #1e1b4b
+    #836fff
+    #777
+    #333
+    #000
+    #fff
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -1281,6 +1294,12 @@ body {
             justify-items: center;
             align-items: stretch;
         }
+
+        .swiper {
+            width: 70%;
+            text-align: center;
+            padding: auto;
+        }
     
         .courses__swiper {
             padding: 0.8rem 0;
@@ -1500,7 +1519,14 @@ body {
             padding: 3rem 1rem;
             text-align: center;
         }
-    
+
+        .swiper {
+            width: 50%;
+            border-radius: 12px;
+            text-align: center;
+            padding: auto;
+        }
+
         .section__title {
             font-size: 1.8rem;
             margin-bottom: 2rem;
@@ -1539,7 +1565,7 @@ body {
             line-height: 1.4;
         }
     
-        .course-item .button,
+        .course-item button,
         .course-item button {
             font-size: 0.95rem;
             padding: 0.6rem 1.2rem;
@@ -1678,7 +1704,12 @@ body {
             justify-items: center;
             align-items: stretch;
         }
-    
+
+        .swiper{
+            width: 50%;
+            text-align: center;
+        }
+
         .courses__swiper {
             padding: 0.8rem 0;
         }
