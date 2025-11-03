@@ -61,8 +61,6 @@ function renderFilteredCourses(courses, currentPage, limitPerPage){ // Add price
     const filter = document.querySelector(".courses-container-filter");
 
     filter.innerHTML = "";
-    console.log(courses);
-    console.log(filter);
     for (const course of paginationInfo.data){
     const courseInfo = {
         category: course.category,
