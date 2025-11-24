@@ -1,5 +1,5 @@
 // Imports
-import { courseList } from "./Modules/courseSystem.js";
+import { courseList, enrollUser } from "./Modules/courseSystem.js";
 import { ExploreSystem } from "./Modules/ExploreSystem.js";
 import { getCurrentUser } from "./Modules/userSystem.js"
 
@@ -84,6 +84,7 @@ function renderFilteredCourses(courseList, page, limit) {
             id: c.id,
             enrolled: userCourses.includes(c.id)
         });
+
         container.appendChild(element);
     }
 }
